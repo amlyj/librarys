@@ -1,5 +1,15 @@
 pip install flask 
 pip install gevent-websocket
-pip install paramiko
-pip install  cryptography 
+pip install websocket
+
 apt-get install python-paramiko
+pip install paramiko
+
+apt install libffi-dev
+apt install openssl
+sudo apt-get install libssl-dev
+pip install  cryptography 
+
+
+
+
