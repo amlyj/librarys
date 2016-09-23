@@ -1,6 +1,6 @@
-#Should work on RHEL, Fedora, CentOS. Tested on CentOS 5. <a href="https://www.nginx.com/resources/wiki/start/topics/examples/redhatnginxinit/">官网WIKI</a>
+###Should work on RHEL, Fedora, CentOS. Tested on CentOS 5. <a href="https://www.nginx.com/resources/wiki/start/topics/examples/redhatnginxinit/">官网WIKI</a>
 
-######Save this file as /etc/init.d/nginx
+######注：Save this file as /etc/init.d/nginx
 
 ```shell
 #!/bin/sh
