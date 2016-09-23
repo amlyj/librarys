@@ -1,8 +1,13 @@
 #!/bin/sh
 # ###################################
-# ###################################
-# Save this file as /etc/init.d/nginx
-# ###################################
+#          　使用说明
+# 1.保存文件到 /etc/init.d/nginx
+# 2.设置nginx变量为你安装目录的nginx执行文件位置
+# 3.设置NGINX_CONF_FILE变量为你安装目录的nginx.conf配置文件位置
+# 4.chmod a+x /etc/init.d/nginx 
+# 5.可选加入到开机启动：echo "/etc/init.d/nginx start" >> /etc/rc.local
+# 6.可选加入到系统服务：chkconfig --add /etc/init.d/nginx　
+#   开机启动：chkconfig --level 3 nginx on 
 # ###################################
 # nginx - this script starts and stops the nginx daemon
 #
