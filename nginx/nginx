@@ -1,6 +1,8 @@
 #!/bin/sh
 # ###################################
+# ###################################
 # Save this file as /etc/init.d/nginx
+# ###################################
 # ###################################
 # nginx - this script starts and stops the nginx daemon
 #
@@ -21,9 +23,11 @@
 # Check that networking is up.
 [ "$NETWORKING" = "no" ] && exit 0
 
+# nginx run file location　
 nginx="/usr/sbin/nginx"
 prog=$(basename $nginx)
 
+# nginx config file location
 NGINX_CONF_FILE="/etc/nginx/nginx.conf"
 
 [ -f /etc/sysconfig/nginx ] && . /etc/sysconfig/nginx
