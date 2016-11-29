@@ -1,0 +1,5 @@
+ libcrypto.so.10  
+ libssl.so.10
+ 
+ cp  libcrypto.so.10   /usr/lib/
+ cp  libssl.so.10  /usr/lib/
