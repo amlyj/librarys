@@ -1,0 +1,11 @@
+#使用方法：
+
+##安装easy_install
+```shell
+curl https://raw.githubusercontent.com/king-aric/librarys/master/python/pip/ez_setup.py && python ez_setup.py 
+```
+
+##安装pip
+```shell
+curl https://raw.githubusercontent.com/king-aric/librarys/master/python/pip/get-pip.py && python get-pip.py 
+```
