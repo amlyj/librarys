@@ -1,19 +1,25 @@
-##ubuntu
+# wssh 依赖
+
+## ubuntu
+```
+su root
+
 pip install flask 
 pip install gevent-websocket
 pip install websocket
-
-apt-get install python-paramiko
 pip install paramiko
+pip install cryptography
 
+apt install python-paramiko
 apt install libffi-dev
 apt install openssl
-sudo apt-get install libssl-dev
-pip install  cryptography 
+apt install libssl-dev
 
+```
 
-##centos:
+## centos:
+```
 yum -y install gcc gcc-c++ python-devel libffi-devel  openssl openssl-devel
 pip install flask genvent gevent-websocket websocket pyopenssl cryptography paramiko
-
+```
 
